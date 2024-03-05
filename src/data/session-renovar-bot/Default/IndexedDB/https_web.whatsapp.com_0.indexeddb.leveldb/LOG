@@ -1,0 +1,13 @@
+2024/03/04-21:51:11.271 171a9 Reusing MANIFEST /home/diego/Projetos/projetos_sem_github/renovar-bot/src/data/session-renovar-bot/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/04-21:51:11.271 171a9 Recovering log #378
+2024/03/04-21:51:11.346 171a9 Reusing old log /home/diego/Projetos/projetos_sem_github/renovar-bot/src/data/session-renovar-bot/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000378.log 
+2024/03/04-21:51:24.050 171a9 Level-0 table #386: started
+2024/03/04-21:51:24.072 171a9 Level-0 table #386: 1172201 bytes OK
+2024/03/04-21:51:24.074 171a9 Delete type=0 #378
+2024/03/04-21:51:24.405 172bb Compacting 1@1 + 4@2 files
+2024/03/04-21:51:24.488 172bb Generated table #387@1: 85234 keys, 2234849 bytes
+2024/03/04-21:51:24.567 172bb Generated table #388@1: 100150 keys, 2253040 bytes
+2024/03/04-21:51:24.610 172bb Generated table #389@1: 36338 keys, 2411022 bytes
+2024/03/04-21:51:24.692 172bb Generated table #390@1: 84488 keys, 1929019 bytes
+2024/03/04-21:51:24.692 172bb Compacted 1@1 + 4@2 files => 8827930 bytes
+2024/03/04-21:51:24.693 172bb compacted to: files[ 0 0 4 0 0 0 0 ]

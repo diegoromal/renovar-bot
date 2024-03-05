@@ -1,0 +1,101 @@
+/ip firewall nat add action=masquerade chain=srcnat comment=MasqueradeInternet out-interface-list=WAN
+/ip firewall nat
+# no interface
+add action=dst-nat chain=dstnat dst-port=81 in-interface=wireguard1 protocol=tcp to-addresses=192.168.200.11 to-ports=81
+/ip firewall nat
+# no interface
+add action=dst-nat chain=dstnat dst-port=8001 in-interface=wireguard1 protocol=tcp to-addresses=192.168.200.11 to-ports=8001
+/ip firewall nat
+# no interface
+add action=dst-nat chain=dstnat dst-port=5541 in-interface=wireguard1 protocol=tcp to-addresses=192.168.200.11 to-ports=5541
+/ip firewall nat
+# no interface
+add action=dst-nat chain=dstnat dst-port=82 in-interface=wireguard1 protocol=tcp to-addresses=192.168.200.12 to-ports=82
+/ip firewall nat
+# no interface
+add action=dst-nat chain=dstnat dst-port=8002 in-interface=wireguard1 protocol=tcp to-addresses=192.168.200.12 to-ports=8002
+/ip firewall nat
+# no interface
+add action=dst-nat chain=dstnat dst-port=5542 in-interface=wireguard1 protocol=tcp to-addresses=192.168.200.12 to-ports=5542
+/ip firewall nat
+# no interface
+add action=dst-nat chain=dstnat dst-port=83 in-interface=wireguard1 protocol=tcp to-addresses=192.168.200.13 to-ports=83
+/ip firewall nat
+# no interface
+add action=dst-nat chain=dstnat dst-port=8003 in-interface=wireguard1 protocol=tcp to-addresses=192.168.200.13 to-ports=8003
+/ip firewall nat
+# no interface
+add action=dst-nat chain=dstnat dst-port=5543 in-interface=wireguard1 protocol=tcp to-addresses=192.168.200.13 to-ports=5543
+/ip firewall nat
+# no interface
+add action=dst-nat chain=dstnat dst-port=84 in-interface=wireguard1 protocol=tcp to-addresses=192.168.200.14 to-ports=84
+/ip firewall nat
+# no interface
+add action=dst-nat chain=dstnat dst-port=8004 in-interface=wireguard1 protocol=tcp to-addresses=192.168.200.14 to-ports=8004
+/ip firewall nat
+# no interface
+add action=dst-nat chain=dstnat dst-port=5544 in-interface=wireguard1 protocol=tcp to-addresses=192.168.200.14 to-ports=5544
+/ip firewall nat
+# no interface
+add action=dst-nat chain=dstnat dst-port=85 in-interface=wireguard1 protocol=tcp to-addresses=192.168.200.15 to-ports=85
+/ip firewall nat
+# no interface
+add action=dst-nat chain=dstnat dst-port=8005 in-interface=wireguard1 protocol=tcp to-addresses=192.168.200.15 to-ports=8005
+/ip firewall nat
+# no interface
+add action=dst-nat chain=dstnat dst-port=5545 in-interface=wireguard1 protocol=tcp to-addresses=192.168.200.15 to-ports=5545
+/ip firewall nat
+# no interface
+add action=dst-nat chain=dstnat dst-port=86 in-interface=wireguard1 protocol=tcp to-addresses=192.168.200.16 to-ports=86
+/ip firewall nat
+# no interface
+add action=dst-nat chain=dstnat dst-port=8006 in-interface=wireguard1 protocol=tcp to-addresses=192.168.200.16 to-ports=8006
+/ip firewall nat
+# no interface
+add action=dst-nat chain=dstnat dst-port=5546 in-interface=wireguard1 protocol=tcp to-addresses=192.168.200.16 to-ports=5546
+/ip firewall nat
+# no interface
+add action=dst-nat chain=dstnat dst-port=87 in-interface=wireguard1 protocol=tcp to-addresses=192.168.200.17 to-ports=87
+/ip firewall nat
+# no interface
+add action=dst-nat chain=dstnat dst-port=8007 in-interface=wireguard1 protocol=tcp to-addresses=192.168.200.17 to-ports=8007
+/ip firewall nat
+# no interface
+add action=dst-nat chain=dstnat dst-port=5547 in-interface=wireguard1 protocol=tcp to-addresses=192.168.200.17 to-ports=5547
+/ip firewall nat
+# no interface
+add action=dst-nat chain=dstnat dst-port=88 in-interface=wireguard1 protocol=tcp to-addresses=192.168.200.18 to-ports=88
+/ip firewall nat
+# no interface
+add action=dst-nat chain=dstnat dst-port=8008 in-interface=wireguard1 protocol=tcp to-addresses=192.168.200.18 to-ports=8008
+/ip firewall nat
+# no interface
+add action=dst-nat chain=dstnat dst-port=5548 in-interface=wireguard1 protocol=tcp to-addresses=192.168.200.18 to-ports=5548
+/ip firewall nat
+# no interface
+add action=dst-nat chain=dstnat dst-port=89 in-interface=wireguard1 protocol=tcp to-addresses=192.168.200.19 to-ports=89
+/ip firewall nat
+# no interface
+add action=dst-nat chain=dstnat dst-port=8009 in-interface=wireguard1 protocol=tcp to-addresses=192.168.200.19 to-ports=8009
+/ip firewall nat
+# no interface
+add action=dst-nat chain=dstnat dst-port=5549 in-interface=wireguard1 protocol=tcp to-addresses=192.168.200.19 to-ports=5549
+/ip firewall nat
+# no interface
+add action=dst-nat chain=dstnat dst-port=810 in-interface=wireguard1 protocol=tcp to-addresses=192.168.200.20 to-ports=810
+/ip firewall nat
+# no interface
+add action=dst-nat chain=dstnat dst-port=8010 in-interface=wireguard1 protocol=tcp to-addresses=192.168.200.20 to-ports=8010
+/ip firewall nat
+# no interface
+add action=dst-nat chain=dstnat dst-port=5510 in-interface=wireguard1 protocol=tcp to-addresses=192.168.200.20 to-ports=5510
+/ip firewall nat
+# no interface
+add action=dst-nat chain=dstnat dst-port=811 in-interface=wireguard1 protocol=tcp to-addresses=192.168.200.21 to-ports=811
+/ip firewall nat
+# no interface
+add action=dst-nat chain=dstnat dst-port=8011 in-interface=wireguard1 protocol=tcp to-addresses=192.168.200.21 to-ports=8011
+/ip firewall nat
+# no interface
+add action=dst-nat chain=dstnat dst-port=5511 in-interface=wireguard1 protocol=tcp to-addresses=192.168.200.21 to-ports=5511
+

@@ -1,0 +1,32 @@
+version: "3"
+
+volumes:
+    mongodb-renovar-bot:
+
+services:
+    mongodb-renovar-bot:
+        hostname: mongodb-renovar-bot
+        image: mongo
+        network_mode: host
+        volumes:
+            - type: bind
+              source: /etc/localtime
+              target: /etc/localtime:ro
+            - type: bind
+              source: /etc/timezone
+              target: /etc/timezone:ro
+            - type: volume
+              source: mongodb-renovar-bot
+              target: /var/lib/mongo:Z
+        environment:
+            MONGO_INITDB_ROOT_USERNAME: mongodb
+            MONGO_INITDB_ROOT_PASSWORD: delohceizie4xiaT6ohc
+
+    mongodb-express-renovar-bot:
+        hostname: mongodb-express-renovar-bot
+        image: mongo-express
+        network_mode: host
+        environment:
+            ME_CONFIG_MONGODB_ADMINUSERNAME: mongodb
+            ME_CONFIG_MONGODB_ADMINPASSWORD: delohceizie4xiaT6ohc
+            ME_CONFIG_MONGODB_URL: mongodb://mongodb:delohceizie4xiaT6ohc@127.0.0.1:27017/'                                                                                                                                                                                                                                                                                                                                                                     1   ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
